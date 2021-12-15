@@ -36,5 +36,5 @@ ___
 3. Use resources/init_db.sql for creating a Schema and tables
 4. Configure /util/ConnectionUtil.java with your URL, USERNAME, PASSWORD, JDBC_DRIVER
 5. In the src/main/resources/log4j2.xml at line File name = "File" fileName = "logs\app.log" you need to change "logs\app.log" with absolute path to .log file
-6. Сonfigure the tomcat library path in the startup settings
-7. Enjoy!)
+6. Configure the tomcat library path in the startup settings
+7. Enjoy!
