@@ -1,12 +1,15 @@
-# taxi-service
+# Taxi-service
 
-This is simple program for taxi service. Program has next functions:
-- track all available cars and working drivers
-- register new drivers
-- add new cars and their manufacturers
-- delete cars, drivers and manufacturers
-- add drivers to cars
-- track your cars as a driver
+This is simple program for taxi service. The program uses mysql to store data. Tomcat is also used as a web-server
+Program has next functions:
+- display all Drivers
+- display all Cars
+- display all Manufacturers
+- create new Driver
+- create new Car
+- create new Manufacturer
+- add driver to car
+- all cars by driver
 ___
 ## 3-layer architecture
 1. DAO - Data access layer
@@ -22,13 +25,6 @@ ___
 - JSTL
 - JSP
 - HTML, CSS
----
-## Data Base Diagram of project
-
-![][logo]
-
-[logo]: https://mate-academy-images.s3.eu-central-1.amazonaws.com/car_diagram_db_2_4f50942103.png
-
 ---
 ## How to start the program
 1. Configure Apache Tomcat for your IDE
